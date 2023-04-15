@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.9.0 on win32)" generated="20230414 22:16:43.492" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\Jay Shree Krishna\.vscode\extensions\robocorp.robotframework-lsp-1.10.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="Log To Console" library="BuiltIn">
+<arg>&amp;{student_details}[name]</arg>
+<doc>Logs the given message to the console.</doc>
+<msg timestamp="20230414 22:16:46.886" level="FAIL">Variable '&amp;{student_details}' not found.</msg>
+<status status="FAIL" starttime="20230414 22:16:46.884" endtime="20230414 22:16:46.886"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${student_details.id}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:16:46.886" endtime="20230414 22:16:46.886"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>&amp;{student_details}[hobby]</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="NOT RUN" starttime="20230414 22:16:46.886" endtime="20230414 22:16:46.886"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar1}</var>
+<arg>type(${var1})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<msg timestamp="20230414 22:17:16.997" level="FAIL">Variable '${var1}' not found.</msg>
+<status status="FAIL" starttime="20230414 22:17:16.996" endtime="20230414 22:17:16.997"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar1}</var>
+<arg>Type of Var1 is :</arg>
+<arg>${typevar1}</arg>
+<arg>and value of Var1 is :</arg>
+<arg>${var1}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.998" endtime="20230414 22:17:16.998"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar1}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.998" endtime="20230414 22:17:16.998"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar2}</var>
+<arg>type(${var2}).__name__</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.998" endtime="20230414 22:17:16.998"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar2}</var>
+<arg>Type of Var2 is :</arg>
+<arg>${typevar2}</arg>
+<arg>and value of Var2 is :</arg>
+<arg>${var2}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.998" endtime="20230414 22:17:16.998"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar2}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.999" endtime="20230414 22:17:16.999"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar3}</var>
+<arg>type(${var3})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.999" endtime="20230414 22:17:16.999"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar3}</var>
+<arg>Type of Var3 is :</arg>
+<arg>${typevar3}</arg>
+<arg>and value of Var3 is :</arg>
+<arg>${var3}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.999" endtime="20230414 22:17:16.999"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar3}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.999" endtime="20230414 22:17:16.999"/>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<var>${var3}</var>
+<arg>100</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:16.999" endtime="20230414 22:17:17.000"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Now the value of var3 : ${var3}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.000" endtime="20230414 22:17:17.000"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar5}</var>
+<arg>type(${var5})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.000" endtime="20230414 22:17:17.000"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar5}</var>
+<arg>Type of var5 is :</arg>
+<arg>${typevar5}</arg>
+<arg>and value of var5 is :</arg>
+<arg>${var5}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.000" endtime="20230414 22:17:17.000"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar5}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.001" endtime="20230414 22:17:17.001"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar6}</var>
+<arg>type(${var6})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.001" endtime="20230414 22:17:17.001"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar6}</var>
+<arg>Type of var6 is :</arg>
+<arg>${typevar6}</arg>
+<arg>and value of var6 is :</arg>
+<arg>${var6}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.001" endtime="20230414 22:17:17.001"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar6}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.001" endtime="20230414 22:17:17.001"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar7}</var>
+<arg>type(${var7})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.001" endtime="20230414 22:17:17.002"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar7}</var>
+<arg>Type of var7 is :</arg>
+<arg>${typevar7}</arg>
+<arg>and value of var7 is :</arg>
+<arg>${var7}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.002" endtime="20230414 22:17:17.002"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar7}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.002" endtime="20230414 22:17:17.002"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar8}</var>
+<arg>type(${var8})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.002" endtime="20230414 22:17:17.002"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar8}</var>
+<arg>Type of var8 is :</arg>
+<arg>${typevar8}</arg>
+<arg>and value of var8 is :</arg>
+<arg>${var8}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.002" endtime="20230414 22:17:17.002"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar8}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.003" endtime="20230414 22:17:17.003"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar9}</var>
+<arg>type(${var9})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.003" endtime="20230414 22:17:17.003"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar9}</var>
+<arg>Type of var9 is :</arg>
+<arg>${typevar9}</arg>
+<arg>and value of var9 is :</arg>
+<arg>${var9}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.003" endtime="20230414 22:17:17.003"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar9}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.003" endtime="20230414 22:17:17.004"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar10}</var>
+<arg>type(${var10})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.004" endtime="20230414 22:17:17.004"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar10}</var>
+<arg>Type of var10 is :</arg>
+<arg>${typevar10}</arg>
+<arg>and value of var10 is :</arg>
+<arg>${var10}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.004" endtime="20230414 22:17:17.004"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar10}.First item of the Tuple is : ${var10}(0)</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.004" endtime="20230414 22:17:17.004"/>
+</kw>
+<kw name="Evaluate" library="BuiltIn">
+<var>${typevar11}</var>
+<arg>type(${var11})</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.004" endtime="20230414 22:17:17.004"/>
+</kw>
+<kw name="Catenate" library="BuiltIn">
+<var>${typevar11}</var>
+<arg>Type of var11 is :</arg>
+<arg>${typevar11}</arg>
+<arg>and value of var9 is :</arg>
+<arg>${var11}</arg>
+<doc>Catenates the given items together and returns the resulted string.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.005" endtime="20230414 22:17:17.005"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${typevar11}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20230414 22:17:17.005" endtime="20230414 22:17:17.005"/>
+</kw>
+<status status="PASS" starttime="20230414 22:16:43.541" endtime="20230414 22:39:42.670"/>
+</kw>
+<status status="PASS" starttime="20230414 22:16:43.540" endtime="20230414 22:39:42.675"/>
+</test>
+<status status="PASS" starttime="20230414 22:16:43.497" endtime="20230414 22:39:42.679"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

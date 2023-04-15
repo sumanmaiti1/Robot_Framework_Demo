@@ -11,4 +11,6 @@ Dependencies/Set up process :
   1) Install wxPython client (pip install wxPython OR Python -m pip install wxPython)
   2) Install pywin32 client (pip install pywin32)
 5) Install RIDE editor (pip install robotframework-ride)
-6) Install Pycharm client.
+6) Install Pycharm/VSCode client.
+7) If Pycharm instlled then add Intelibot #patched plugin.
+   If VS Code installed, then add Robot Framework Language Server extension.
