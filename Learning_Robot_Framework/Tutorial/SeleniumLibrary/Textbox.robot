@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    This will deal with Textboxes and different operations on them
+Documentation    This will deal with different Textboxes 
 ...    
 ...    This is written by Suman Maiti  
 
@@ -15,7 +15,7 @@ ${url}    https://www.htmlelements.com/demos/textbox/
 *** Test Cases ***
 TC_01_Overview_Tab_textboxes
     Set Test Documentation    This Test case deals with the textbox present in OverviewTab
-    Set Tags    Regression    Smoke    
+    Set Tags    Regression    Smoke    TextBox
     Verify if page is populated successfully
     Select Frame    //iframe[@class='demo-frame']
     #--------for Name Textbox ---------------
@@ -57,7 +57,7 @@ TC_01_Overview_Tab_textboxes
 
 TC_02_AutoComplete_Tab_textboxes
     Set Test Documentation    This test will deal with the textbox is Auto Complete Tab
-    Set Tags    Regression
+    Set Tags    Regression    TextBox
     Verify if page is populated successfully
     #-----------Clicking on Auto complete Tab in left plane ------------
     Click Element    xpath://a[text()='Auto Complete']
@@ -76,7 +76,7 @@ TC_02_AutoComplete_Tab_textboxes
     
 TC_03_Basic_Tab_textboxes
     Set Test Documentation    This test will deal with the textbox is Basic Tab
-    Set Tags    Regression
+    Set Tags    Regression    TextBox
     Verify if page is populated successfully
     #-----------Clicking on Basic Tab in left plane ------------
     Click Element    xpath://a[text()='Basic']
@@ -97,7 +97,7 @@ TC_03_Basic_Tab_textboxes
 
 TC_04 Data Source Calback Textboxes
     Set Test Documentation    This test deal with the Data Source Callback Textboxes
-    Set Tags    Regression
+    Set Tags    Regression    TextBox
     Verify if page is populated successfully
     #-----------Clicking on Basic Tab in left plane ------------
     Click Link    //a[normalize-space()='Data Source Callback']
